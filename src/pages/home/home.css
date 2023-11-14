@@ -1,0 +1,7 @@
+.height-auto{
+    height: max-content;
+}
+.li:hover{
+    cursor: pointer;
+    text-decoration:  underline;
+}
