@@ -5,6 +5,8 @@ import { Cola } from './pages/cola';
 import { Chips } from './pages/chips';
 import { FastFood } from './pages/fastFood';
 import { About } from './pages/about';
+import { ErrorPage } from './pages/404page';
+import { Math } from './pages/mathPage';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Route path={ROUTER.chips} element={<Chips/>}/>
         <Route path={ROUTER.fastFood}  element={<FastFood/>} />
         <Route path={ROUTER.about+"/*"} element={<About/>}/>
+        <Route path={ROUTER.math+"/*"} element={<Math/>}/>
+        <Route path='/*' element={<ErrorPage/>}/>
 
       </Routes>
     </div>

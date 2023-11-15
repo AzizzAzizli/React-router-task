@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 export const Header = () => {
   return (
     <>
-    <header className={styles.header}>
+    <header className={`${styles.header}`}>
       <h1>React-Router-Task</h1>
       <nav>
         <a href="https://www.linkedin.com/in/aziz-azizli-3ba24a28a/">

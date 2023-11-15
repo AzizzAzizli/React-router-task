@@ -36,7 +36,7 @@ export const Cola = () => {
           ))}
         </div>
         <button  onClick={()=>navigate(ROUTER.home)} className="fs-3 btn fw-bolder text-warning ">Go Home</button>
-        <div>
+        <div >
           <img
             style={{ width: "250px", height: "250px" }}
             src={colaimg}

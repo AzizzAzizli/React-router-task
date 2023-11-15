@@ -35,6 +35,9 @@ const {pathname}=useLocation()
         <li className={`text-${("/"+pathname.split("/")[1])===ROUTER.about?"warning":"light"}  li`} onClick={() => navigator(ROUTER.about)}>
       About
         </li>
+        <li className={`text-${pathname===ROUTER.math?"warning":"light"}  li`} onClick={() => navigator(ROUTER.math)}>
+    Math
+        </li>
       </ul>
     </>
   );
