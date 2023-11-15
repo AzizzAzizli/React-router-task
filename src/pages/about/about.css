@@ -1,0 +1,6 @@
+.about-li {
+cursor: pointer;
+&&:hover{
+    text-decoration: underline;
+}
+}

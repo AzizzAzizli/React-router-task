@@ -4,6 +4,7 @@ import { Header } from '../../components/Header';
 import { Nav } from '../../components/Nav';
 import { useNavigate } from 'react-router';
 import lays from '../../images/lays.jpg'
+import { ROUTER } from '../../constants/router';
 export const Chips = () => {
     let navigate=useNavigate()
   return (
@@ -15,7 +16,7 @@ export const Chips = () => {
 
             <div style={{width:"max-content"}} className='pt-4 pb-4 ps-3 pe-3 bg-primary rounded-3  text-light fs-2 fw-bolder ' >
 <p>Ohh! Out of stock</p>
-<ul style={{margin:"0px",padding:"0px"}}><li style={{cursor:"pointer"}}  className='text-black text-center' onClick={()=>navigate(-1)} >Go Back</li></ul>
+<ul style={{margin:"0px",padding:"0px"}}><li style={{cursor:"pointer"}}  className='text-black text-center' onClick={()=>navigate(ROUTER.home)} >Go Back</li></ul>
             </div>
         </main>
     </div>
