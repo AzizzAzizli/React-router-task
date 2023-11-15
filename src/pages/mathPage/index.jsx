@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import { Nav } from "../../components/Nav";
 import { ROUTER } from "../../constants/router";
 import { Route, Routes, useNavigate } from "react-router";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Calculator } from "../calculator";
 
 export const Math = () => {
